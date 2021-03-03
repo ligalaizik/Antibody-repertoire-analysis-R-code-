@@ -29,5 +29,13 @@ mixcr exportAlignments -f -nFeature {FR1Begin:FR4End} -targets -vHit -dHit -jHit
 
 The output file from each MiXCR run will be used as an input for the R scripts
 
-R scripts include the following:
-1/ 
+R scripts include the following (and run according to this order):
+
+1/ Duplicate analysis Function
+2/ Rarefaction Function
+3/ Unique shared Seq-ver2 functionn
+4/ Isotype analysis Function
+5/ Mutation count Function
+6/ Clones analysis Vers Function
+7/ V gene analysis
+8/ Shared Clones
